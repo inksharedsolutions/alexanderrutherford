@@ -26,14 +26,10 @@ const ATB = (props)=>{
                             <div className="heading-quote">
 
                                 <h4>
-                                    The secret is inside of you; you can 
-                                    create your world with your words.
-                                    You are framing your reality every day.
-                                    You are literally what you think of yourself.
-                                    Your beliefs are not made of realities. Rather,
-                                    your reality is being formed every day by your
-                                    beliefs, thoughts and words. Manifest intentions
-                                    in your words and become the author of reality.
+                                  Dreams have been realized on this day.
+                                  And other dreams may have been fulfilled before this day.
+                                  Other dreams may not have even been born yet. There is just one
+                                  thing to keep in mind: whatever dream you have...keep the faith!
                                 </h4>
                                 
                                 <span className="ata-span-fx">
