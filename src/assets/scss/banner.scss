@@ -119,6 +119,7 @@
         background: #00000021;
         padding: 34px;
         margin-top: 6%;
+        text-align: center;
 
         span{
             &:nth-child(1),
@@ -164,9 +165,11 @@
         }
 
         text-transform: uppercase;
-        color: #eeee !important;
+        color: hsla(0,0%,93.3%,.93)!important;
         margin-top: 8%;
+        font-size: 12px;
         display: block;
+        padding: 4%;
     }
 
 
