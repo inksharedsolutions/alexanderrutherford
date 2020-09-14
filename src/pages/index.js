@@ -14,7 +14,8 @@ const IndexPage = (props) => (
   <Layout>
       <Nav pathExt={props.path}/>
       <Banner/>
-      <MidBook/>
+      <MidBook/>	
+      <Trailer/>
       <UpperMain/>
       <FeaturedLogos/>
   </Layout>
