@@ -111,7 +111,7 @@ const Nav = (props) =>{
 						<p class="list-label">
 							Navigations.
 						</p>
-						
+					
 						{ Listed }
 
 					</ul>
