@@ -45,6 +45,16 @@
         }
     }
 
+    .section-body-events{
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 9%;
+    }
+
+    .section-eventsP{
+        grid-template-columns: auto !important;
+    }
+
     .two-grid-columns{
         grid-template-columns: auto;
     }
