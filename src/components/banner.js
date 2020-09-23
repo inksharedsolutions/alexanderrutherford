@@ -27,7 +27,7 @@ const Banner = ()=>{
 
                                 <h1>
                                   <span>This family of friends</span>
-                                  <span>of friends of family</span>
+                                  <span>is friends of family</span>
                                 </h1>
 
                                

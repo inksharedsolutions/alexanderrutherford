@@ -78,8 +78,8 @@ const Footer = ()=>{
                                         icon={faGoodreads} />
                                 </a>
                             </li>
-                        </ul>
 
+                        </ul>
                     </nav>
                 </div>
 
@@ -104,6 +104,11 @@ const Footer = ()=>{
                             <li>
                                 <Link to="/contact">
                                     Contact
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/events">
+                                    Events
                                 </Link>
                             </li>
                         </ul>

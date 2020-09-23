@@ -459,3 +459,34 @@ $prm-font-size : 12px;
     font-weight: 600;
     font-size: 15px;
 }
+
+
+/*Events*/
+.section-events{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    .events-info-body{
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            margin: 3% !important;
+        }
+    }
+
+    .events-title{
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 13px;
+        display: block;
+    }
+    
+}
+
+.events-wrapper{
+    margin: 14% 0;
+    font-size: 11px;
+}
