@@ -22,7 +22,7 @@ const Banner = ()=>{
                             <div className="banner-text">
 
                                 <p>
-                                    The First in the Alex Dreams Triology
+                                    The First in the Alex's Dreams Triology
                                 </p>
 
                                 <h1>
