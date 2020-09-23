@@ -467,13 +467,14 @@ $prm-font-size : 12px;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     max-width: 1200px;
+    gap:20px;
 
     .events-info-body{
         h1{
             font-size: 2rem;
         }
         p{
-            margin: 3% !important;
+               margin: 1% !important;
         }
     }
 
@@ -482,11 +483,38 @@ $prm-font-size : 12px;
         font-weight: 900;
         font-size: 13px;
         display: block;
+        color: #b72d2d;
+        margin: 4% 0;
     }
-    
+
 }
 
 .events-wrapper{
     margin: 14% 0;
     font-size: 11px;
+}
+
+
+.section-body-events{
+    .events-heading-section,
+    .past-events{
+
+        font-size: 2rem;
+        margin-bottom: 3%;
+        font-weight: 900;
+        color: #000000 !important;
+        text-transform: uppercase;
+
+
+        &:after{
+            content: '';
+            background: #d6d6d6;
+            width: 33%;
+            height: 1px;
+            position: relative;
+            display: inline-block;
+            margin: 0 4%;
+            top: -9px;
+        }
+    }
 }
