@@ -10,7 +10,7 @@ const Trailer = () =>{
                 <div className="grid-two-columns" id="trailer-body">
                     
                     <div className="grid-child-content">
-                        <h5>Penny Mccoy</h5>
+                        <h5>Alexander Rutherford</h5>
                         <h1>
                             <span>Book</span>
                             <span>Trailer</span>
