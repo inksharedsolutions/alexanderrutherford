@@ -56,7 +56,7 @@ const Footer = ()=>{
                             <li>
                                 <a          
                                     target="_blank"
-                                    href="https://www.instagram.com/strattonpress/"
+                                    href="https://www.instagram.com/lexfordbooksig/"
                                     rel="noreferrer"
                                     >
 
