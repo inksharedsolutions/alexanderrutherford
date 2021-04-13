@@ -56,9 +56,8 @@ const ATB = (props)=>{
                                     `,
 
                                     ebooks:{
-                                        stratton:'https://www.stratton-press.com/books/bffs-best-friends-forever-the-first-in-the-alexs-dreams-trilogy//',
-                                        barnes:'https://www.barnesandnoble.com/w/bffs-alexander-rutherford/1131218865?ean=9781643452029',
                                         amazon:'https://www.amazon.com/BFFs-DREAMS-Trilogy-Friends-Forever-ebook/dp/B07HMDB3LL/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1554403392&sr=8-1', 
+                                        barnes:'https://www.barnesandnoble.com/w/bffs-alexander-rutherford/1131218865?ean=9781643452029',
                                     },
                                     paperback:{
                                         amazon:'https://www.amazon.com/Bffs-Dreams-Trilogy-Friends-Forever/dp/1948654733/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1554403392&sr=8-1',

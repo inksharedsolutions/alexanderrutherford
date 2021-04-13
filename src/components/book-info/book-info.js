@@ -34,7 +34,6 @@ const BookInfo = (props)=>{
                     <BookLink
                         data={{
                             ebooks:{
-                                stratton: props.data.ebooks.stratton,
                                 barnes: props.data.ebooks.barnes,
                                 amazon : props.data.ebooks.amazon, 
                             },
