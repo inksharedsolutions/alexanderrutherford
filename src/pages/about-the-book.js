@@ -5,6 +5,8 @@ import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
 import FrontBook from '../../static/books/Book_Cover.png'
+import Book2 from '../../static/books/book1.png'
+import { Helmet } from 'react-helmet'
 
 
 const ATB = (props)=>{
@@ -19,6 +21,7 @@ const ATB = (props)=>{
 
 	return (
 		<>
+            <Helmet title='Books | Alexander Rutherford' />
 		 	<Layout>
 		 		<Nav pathExt={props.path}/>
                  
@@ -66,6 +69,92 @@ const ATB = (props)=>{
                                     }
                                 }} 
                             />
+
+                            <div className="columns book-container-ft">
+                                
+                                <div className="column">
+                                    <div className="bookImgContainer">
+                                        <img alt="main-book" src={Book2} />
+                                    </div>
+                                </div>
+                                
+                                <div className="column" id='omg'>
+
+                                    <section className="contentBook">
+
+                                        <h1>OMG!: Oh My God!</h1>
+
+                                        <p className="sub-heading">
+                                            The SECOND in the ALEX's DREAMS Trilogy
+                                        </p>
+                                        
+                                        <span></span> 
+
+                                        <div className="content-body">
+                                            <p>
+                                                The second installment of this spectacularly imaginative page-turner
+                                                picks up right where the first left off. This literary eye-catcher
+                                                will delve further into more complex and complicated that the circle
+                                                of friends is destined to experience. From triumph to tragedy, this
+                                                snapshot in the lives of the colorful cast will leave you wanting
+                                                more and will leave you in shock at how this sequence of events unfold.
+                                                As it is believed that no one will be able to predict how this part
+                                                of the trilogy concludes.
+                                            </p> 
+
+                                            <p>
+                                                Alexander Rutherford will, once again, marvel all with his gift to
+                                                enthrall with his meticulous description and attention to detail,
+                                                suspending your disbelief making you feel like a part of all you
+                                                read by way of his passion for the written word. This exhibition
+                                                in masterful storytelling contains explicit materials and is
+                                                intended to be read by individuals ranging from mature teens to
+                                                young adults and is not recommended for younger audiences.
+                                            </p>
+                                            <span />
+                                            <i>Book links are coming soon....</i>
+                                        </div>
+
+                                    </section>
+
+                                </div>	
+                            </div>
+
+                            {/* <BookInfo
+                                data={{
+                                    title:`OMG!: Oh My God!`,
+                                    spanFirst: `The SECOND in the ALEX's DREAMS Trilogy`,
+                                    imgSrc: Book2,
+                                    id:'',
+                                    content:
+                                    `
+                                    <p>
+                                        The second installment of this spectacularly imaginative page-turner
+                                        picks up right where the first left off. This literary eye-catcher
+                                        will delve further into more complex and complicated that the circle
+                                        of friends is destined to experience. From triumph to tragedy, this
+                                        snapshot in the lives of the colorful cast will leave you wanting
+                                        more and will leave you in shock at how this sequence of events unfold.
+                                        As it is believed that no one will be able to predict how this part
+                                        of the trilogy concludes.
+                                    </p> 
+
+                                    <p>
+                                        Alexander Rutherford will, once again, marvel all with his gift to
+                                        enthrall with his meticulous description and attention to detail,
+                                        suspending your disbelief making you feel like a part of all you
+                                        read by way of his passion for the written word. This exhibition
+                                        in masterful storytelling contains explicit materials and is
+                                        intended to be read by individuals ranging from mature teens to
+                                        young adults and is not recommended for younger audiences.
+                                    </p>
+
+                                    `,
+
+                                    ebooks:{},
+                                    paperback:{}
+                                }} 
+                            /> */}
 
 
             

@@ -5,13 +5,13 @@ module.exports = {
     author: `@Eduardo Vergara`,
   },
   plugins: [
-    {
-        resolve: 'gatsby-source-contentful',
-        options:{
-          spaceId :'eccm8bbfgbb2',
-          accessToken: 'iAjL4UbYn75PFcZF13vGerKew40ESsVxOCfsLbKs_as',
-        }
-    },
+    // {
+    //     resolve: 'gatsby-source-contentful',
+    //     options:{
+    //       spaceId :'eccm8bbfgbb2',
+    //       accessToken: 'iAjL4UbYn75PFcZF13vGerKew40ESsVxOCfsLbKs_as',
+    //     }
+    // },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

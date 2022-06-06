@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Inputs from "../components/Inputs/inputs"
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
+import { Helmet } from 'react-helmet'
 
 
 const Contact = (props)=>{
@@ -32,7 +33,7 @@ const Contact = (props)=>{
 
     return(
         <>
-
+            <Helmet title='Contact | Alexander Rutherford' />
             <Layout>
 
 		 		<Nav pathExt={props.path}/>

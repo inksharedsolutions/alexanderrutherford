@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
@@ -7,6 +8,7 @@ import Banner from '../components/non-front-banner'
 const Event = (props) =>{
 	return(
 		<>
+			<Helmet title='Events | Alexander Rutherford' />
 			<Layout>
 				<Nav pathExt={props.path}/>
 

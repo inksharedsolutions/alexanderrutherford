@@ -93,7 +93,7 @@ const Footer = ()=>{
                             </li>
                             <li>
                                 <Link to="/about-the-author">
-                                    About the Author
+                                    Author
                                 </Link>
                             </li>
                             <li>
