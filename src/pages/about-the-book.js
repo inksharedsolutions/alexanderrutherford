@@ -27,7 +27,7 @@ const ATB = (props)=>{
                  
 		 		<Banner
                     spanFirst={`About The`}
-                    contextHeading={`Book`}
+                    contextHeading={`Books`}
                 />
 
                 <main className="wrapperMain">
