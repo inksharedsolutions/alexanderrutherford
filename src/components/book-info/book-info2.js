@@ -1,5 +1,5 @@
 import React from 'react'
-import BookLink from '../book-link/book-link'
+import BookLink2 from '../book-link/book-link2'
 const BookInfo = (props)=>{
     return(
         <>
@@ -29,16 +29,16 @@ const BookInfo = (props)=>{
                     </section>
 
 
-                    <BookLink
+                    <BookLink2
                         data={{
                             ebooks:{
                                 barnes: props.data.ebooks.barnes,
                                 amazon : props.data.ebooks.amazon, 
                             },
                             paperback:{
-                                amazon: props.data.paperback.amazon,
+                                // amazon: props.data.paperback.amazon,
                                 barnes: props.data.paperback.barnes,
-                                booksamillion: props.data.paperback.booksamillion,
+                                // booksamillion: props.data.paperback.booksamillion,
                             },
                             
                             reviews:{},

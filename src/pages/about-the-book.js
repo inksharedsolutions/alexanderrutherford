@@ -7,6 +7,7 @@ import { DiscussionEmbed } from "disqus-react"
 import FrontBook from '../../static/books/Book_Cover.png'
 import Book2 from '../../static/books/book1.png'
 import { Helmet } from 'react-helmet'
+import BookInfo2 from '../components/book-info/book-info2'
 
 
 const ATB = (props)=>{
@@ -70,7 +71,7 @@ const ATB = (props)=>{
                                 }} 
                             />
 
-                            <div className="columns book-container-ft">
+                            {/* <div className="columns book-container-ft">
                                 
                                 <div className="column">
                                     <div className="bookImgContainer">
@@ -118,9 +119,9 @@ const ATB = (props)=>{
                                     </section>
 
                                 </div>	
-                            </div>
+                            </div> */}
 
-                            {/* <BookInfo
+                            <BookInfo2
                                 data={{
                                     title:`OMG!: Oh My God!`,
                                     spanFirst: `The SECOND in the ALEX's DREAMS Trilogy`,
@@ -151,10 +152,15 @@ const ATB = (props)=>{
 
                                     `,
 
-                                    ebooks:{},
-                                    paperback:{}
+                                    ebooks:{
+                                        amazon:'https://www.amazon.com/OMG-OH-GOD-Alexander-Rutherford-ebook/dp/B0BJ5PTJH2/ref=sr_1_1?keywords=9798887641119&qid=1665758775&qu=eyJxc2MiOiItMC4wMSIsInFzYSI6IjAuMDAiLCJxc3AiOiIwLjAwIn0%3D&sr=8-1', 
+                                        barnes:'https://www.barnesandnoble.com/w/omg-alexander-rutherford/1142517119?ean=9798887641119',
+                                    },
+                                    paperback:{
+                                        barnes:'https://www.barnesandnoble.com/w/omg-alexander-rutherford/1142517119?ean=9798887641102',
+                                    }
                                 }} 
-                            /> */}
+                            />
 
 
             
